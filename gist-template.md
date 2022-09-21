@@ -1,8 +1,13 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+AS A web development student
+I WANT a tutorial explaining a specific regex
+SO THAT I can understand the search pattern the regex defines
 
 ## Summary
+
+A Regex, or regular expression, is a sequence of characters that define a search's parameters.
+We will look at an example denoting a proper email address.
 
 Example: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
