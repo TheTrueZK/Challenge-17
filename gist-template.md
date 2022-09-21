@@ -40,7 +40,18 @@ Example: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ### OR Operator
 
+* `|` Acts like a boolean. Matches the expression before or after the |. This OR that.
+
 ### Character Classes
+
+* `[ABC]` Characters inside brakets will match any character in the set.
+* `[^ABC]` Adding a caret will match any character that is not in the set.
+* `[A-Z]` Add a dash between two characters will select a Range.
+* `\w` Matches any word character (alphanumeric & underscore). Only matches low-ascii characters 
+(no accented or non-roman characters).
+* `\W` Matches any character that is not a word character (alphanumeric & underscore).
+* `\d` Matches any digit character (0-9)
+* `\p` Matches a character in the specified unicode category.
 
 ### Flags
 
