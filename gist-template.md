@@ -29,7 +29,14 @@ Example: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ### Anchors
 
+* `^` matches the start of the string.
+* `$` matches the end of the string.
+
 ### Quantifiers
+
+* `+` Matches 1 or more of the preceding token.
+* `*` Matches 0 or more of the preceding token.
+* `?` Matches 0 or 1 of the preceding token, effectively making it optional.
 
 ### OR Operator
 
@@ -42,6 +49,9 @@ Example: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
+
+* `?` Makes the preceding quantifier lazy, causing it to match as few characters as possible. 
+By default, quantifiers are greedy, and will match as many characters as possible.
 
 ### Boundaries
 
